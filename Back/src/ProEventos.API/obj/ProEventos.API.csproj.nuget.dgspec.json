@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
+    "D:\\Dev\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {
+    "D:\\Dev\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectUniqueName": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "projectName": "ProEventos.API",
-        "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectPath": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "packagesPath": "C:\\Users\\adapp\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\obj\\",
+        "outputPath": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adapp\\AppData\\Roaming\\NuGet\\NuGet.Config"
