@@ -3,6 +3,8 @@ ProEventos - Curso da Udemy
 
 Repositório para a realização do projeto desenvolvido nos estudos do Curso "Seja Full-Stack com Asp.NET Core, Angular + EF Core 2021".
 
+**Projeto em progresso**
+
 **Tecnologias**
 
 As seguintes ferramentas foram usadas na construção do projeto:
