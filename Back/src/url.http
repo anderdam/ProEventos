@@ -1,3 +1,49 @@
-GET https://localhost:5001/api/Eventos/
+//GET https://localhost:5001/api/Eventos
 
+//GET https://localhost:5001/api/Eventos/2
 
+//POST https://localhost:5001/api/Eventos/ HTTP/1.1
+//{
+  "localName": "SP",
+  "dataEvento": "2021-06-05T04:15:25.016",
+  "tema": "Angular 12",
+  "qtdPessoas": 250,
+  "imagemURL": "foto2.png",
+  "telefone": "3456-7890",
+  "email": "angularsp@email.com",
+  "lotes": [
+    {
+      "nome": "1º Lote",
+      "preco": 50,
+      "dataInicio": "2021-06-05T04:37:50.872",
+      "dataFim": "2021-06-05T04:37:50.872",
+      "quantidade": 250
+    },
+    {     
+      "nome": "2º Lote",
+      "preco": 125.5,
+      "dataInicio": "2021-06-05T04:37:50.872",
+      "dataFim": "2021-06-05T04:37:50.872",
+      "quantidade": 200
+    }
+  ],
+  "redesSociais": [
+    {
+      "nome": "facebook",
+      "url": "facebook.com/programador",
+      "palestranteId": null,
+      "palestrante": null
+    },
+    {
+      "nome": "facebook",
+      "url": "facebook.com/programadorsp",
+      "palestranteId": null,
+      "palestrante": null
+    }
+  ],
+  "palestrantesEventos": null
+//}
+
+//PUT https://localhost:5001/api/Eventos/
+
+//DELETE https://localhost:5001/api/Eventos/
