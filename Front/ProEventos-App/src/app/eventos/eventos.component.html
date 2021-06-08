@@ -18,7 +18,9 @@
     <tr>
       <th>
         <button class="btn btn-outline-light btn-sm"
-          (click)="btnShowImgChange()" >{{!showImg ? "Exibir" : "Ocultar" }}
+          (click)="btnShowImgChange()" >
+          <i class="{{!showImg ? 'fa fa-eye ' : 'fa fa-eye-slash' }}"></i>
+          {{!showImg ? "Exibir" : "Ocultar" }}
         </button>
       </th>
       <th>#</th>
@@ -41,15 +43,19 @@
           alt="Logotipo da tecnologia estudada"
         >
       </td>
-      <td>{{evento.eventoID}}</td>
+      <td>{{evento.id}}</td>
       <td>{{evento.tema}}</td>
       <td>{{evento.localName}}</td>
-      <td>{{evento.dataEvento}}</td>
+      <td><i class="fa fa-calendar"></i>&nbsp;&nbsp;{{evento.dataEvento | DateFormatPipe}}</td>
       <td>{{evento.qtdPessoas}}</td>
-      <td>{{evento.lote}}</td>
+      <td>{{evento.lotes[0].nome}}</td>
       <td>
-        <button type="button" class="btn btn-primary btn-sm mr-2">Editar</button>
-        <button type="button" class="btn btn-danger btn-sm">Excluir</button>
+        <button type="button" class="btn btn-primary btn-sm mr-2" tooltip="Editar">
+          <i class="fa fa-edit"></i>
+        </button>
+        <button type="button" class="btn btn-danger btn-sm" tooltip="Excluir" (click)="openModal(template)">
+          <i class="fa fa-trash"></i>
+        </button>
       </td>
     </tr>
   </tbody>
@@ -61,5 +67,12 @@
     </tr>
   </tfoot>
 </table>
-
 <!-- {{eventos | json}} -->
+
+<ng-template #template>
+  <div class="modal-body text-center">
+    <p>Tem certeza que quer deletar este evento?</p>
+    <button type="button" class="btn btn-default" (click)="confirm()">Sim</button>
+    <button type="button" class="btn btn-primary" (click)="decline()">Não</button>
+  </div>
+</ng-template>

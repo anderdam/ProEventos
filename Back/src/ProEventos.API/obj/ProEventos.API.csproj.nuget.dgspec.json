@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
+    "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj": {
+    "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectUniqueName": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "projectName": "ProEventos.API",
-        "projectPath": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "packagesPath": "C:\\Users\\adapp\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.API\\obj\\",
+        "outputPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adapp\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Application\\ProEventos.Application.csproj": {
-                "projectPath": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Application\\ProEventos.Application.csproj"
+              "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj": {
+                "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Application\\ProEventos.Application.csproj": {
+    "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Application\\ProEventos.Application.csproj",
+        "projectUniqueName": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj",
         "projectName": "ProEventos.Application",
-        "projectPath": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Application\\ProEventos.Application.csproj",
+        "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj",
         "packagesPath": "C:\\Users\\adapp\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Application\\obj\\",
+        "outputPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adapp\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -115,11 +115,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
-                "projectPath": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj"
+              "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
+                "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj"
               },
-              "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj": {
-                "projectPath": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj"
+              "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj": {
+                "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj"
               }
             }
           }
@@ -152,14 +152,14 @@
         }
       }
     },
-    "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
+    "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj",
+        "projectUniqueName": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj",
         "projectName": "ProEventos.Domain",
-        "projectPath": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj",
+        "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj",
         "packagesPath": "C:\\Users\\adapp\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Domain\\obj\\",
+        "outputPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adapp\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -204,14 +204,14 @@
         }
       }
     },
-    "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj": {
+    "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj",
+        "projectUniqueName": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj",
         "projectName": "ProEventos.Persistence",
-        "projectPath": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj",
+        "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj",
         "packagesPath": "C:\\Users\\adapp\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Persistence\\obj\\",
+        "outputPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adapp\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -226,8 +226,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
-                "projectPath": "D:\\Dev\\ProEventos\\back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj"
+              "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
+                "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj"
               }
             }
           }
