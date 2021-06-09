@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PalestrantesComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    // todo
+   }
 
-  ngOnInit() {
+  ngOnInit(): void {
+    // todo
   }
-
 }
