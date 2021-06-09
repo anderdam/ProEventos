@@ -1,5 +1,7 @@
 import { Component, OnInit, TemplateRef } from '@angular/core';
 import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
+import { NgxSpinnerService } from 'ngx-spinner';
+import { ToastrService } from 'ngx-toastr';
 import { Evento } from '../models/Evento';
 import { EventoService } from '../services/evento.service';
 
@@ -41,10 +43,16 @@ export class EventosComponent implements OnInit
     );
   }
 
-  constructor(private eventoService: EventoService, private modalService: BsModalService) { }
+  constructor(
+    private eventoService: EventoService,
+    private modalService: BsModalService,
+    private toastr: ToastrService,
+    private spinner: NgxSpinnerService
+    ) { }
 
   public ngOnInit(): void
   {
+    this.spinner.show();
     this.getEventos();
   }
 
@@ -56,11 +64,17 @@ export class EventosComponent implements OnInit
   public getEventos(): void
   {
     this.eventoService.getEventos().subscribe(
-      (eventos: Evento[]) => {
+      {
+        next: (eventos: Evento[]) => {
         this.eventos = eventos;
         this.eventosFiltrados = this.eventos;
       },
-      error => console.log(error));
+      error: () => {
+        this.spinner.hide();
+        this.toastr.error('Erro ao carregar os eventos', 'Erro!');
+      },
+      complete: () => this.spinner.hide()
+    });
   }
 
   openModal(template: TemplateRef<unknown>): void {
@@ -69,6 +83,7 @@ export class EventosComponent implements OnInit
 
   confirm(): void {
     this.modalRef.hide();
+    this.toastr.success('O Evento foi deletado com sucesso', 'Deletado!');
   }
 
   decline(): void {
