@@ -27,6 +27,8 @@ import { EventoService } from './services/evento.service';
 import { DateTimeFormatPipe } from './helpers/DateTimeFormat.pipe';
 import { EventoDetalheComponent } from './componentes/eventos/evento-detalhe/evento-detalhe.component';
 import { EventoListaComponent } from './componentes/eventos/evento-lista/evento-lista.component';
+import { UserComponent } from './componentes/user/user.component';
+import { LoginComponent } from './componentes/user/login/login.component';
 
 
 
@@ -43,6 +45,8 @@ import { EventoListaComponent } from './componentes/eventos/evento-lista/evento-
     NavComponent,
     EventoDetalheComponent,
     EventoListaComponent,
+    UserComponent,
+    LoginComponent,
    ],
   imports: [
     BrowserModule,
