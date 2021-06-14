@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
+    "/home/anderdam/dev/ProEventos/Back/src/ProEventos.API/ProEventos.API.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {
+    "/home/anderdam/dev/ProEventos/Back/src/ProEventos.API/ProEventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectUniqueName": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.API/ProEventos.API.csproj",
         "projectName": "ProEventos.API",
-        "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
-        "packagesPath": "C:\\Users\\adapp\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\obj\\",
+        "projectPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.API/ProEventos.API.csproj",
+        "packagesPath": "/home/anderdam/.nuget/packages/",
+        "outputPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adapp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/anderdam/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -26,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj": {
-                "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj"
+              "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Application/ProEventos.Application.csproj": {
+                "projectPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Application/ProEventos.Application.csproj"
               }
             }
           }
@@ -44,27 +44,27 @@
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -89,21 +89,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj": {
+    "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Application/ProEventos.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj",
+        "projectUniqueName": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Application/ProEventos.Application.csproj",
         "projectName": "ProEventos.Application",
-        "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj",
-        "packagesPath": "C:\\Users\\adapp\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Application\\obj\\",
+        "projectPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Application/ProEventos.Application.csproj",
+        "packagesPath": "/home/anderdam/.nuget/packages/",
+        "outputPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adapp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/anderdam/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -115,11 +115,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
-                "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj"
+              "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Domain/ProEventos.Domain.csproj": {
+                "projectPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Domain/ProEventos.Domain.csproj"
               },
-              "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj": {
-                "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj"
+              "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Persistence/ProEventos.Persistence.csproj": {
+                "projectPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Persistence/ProEventos.Persistence.csproj"
               }
             }
           }
@@ -133,6 +133,32 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -148,21 +174,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
+    "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Domain/ProEventos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj",
+        "projectUniqueName": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Domain/ProEventos.Domain.csproj",
         "projectName": "ProEventos.Domain",
-        "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj",
-        "packagesPath": "C:\\Users\\adapp\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\obj\\",
+        "projectPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Domain/ProEventos.Domain.csproj",
+        "packagesPath": "/home/anderdam/.nuget/packages/",
+        "outputPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adapp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/anderdam/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -185,6 +211,32 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -200,21 +252,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj": {
+    "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Persistence/ProEventos.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj",
+        "projectUniqueName": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Persistence/ProEventos.Persistence.csproj",
         "projectName": "ProEventos.Persistence",
-        "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj",
-        "packagesPath": "C:\\Users\\adapp\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Persistence\\obj\\",
+        "projectPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Persistence/ProEventos.Persistence.csproj",
+        "packagesPath": "/home/anderdam/.nuget/packages/",
+        "outputPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adapp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/anderdam/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -226,8 +278,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
-                "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj"
+              "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Domain/ProEventos.Domain.csproj": {
+                "projectPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Domain/ProEventos.Domain.csproj"
               }
             }
           }
@@ -242,13 +294,29 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             }
           },
           "imports": [
@@ -266,7 +334,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }
