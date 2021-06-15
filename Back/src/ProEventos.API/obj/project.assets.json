@@ -1492,32 +1492,42 @@
     ]
   },
   "packageFolders": {
-    "/home/anderdam/.nuget/packages/": {}
+    "C:\\Users\\adapp\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.API/ProEventos.API.csproj",
+      "projectUniqueName": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
       "projectName": "ProEventos.API",
-      "projectPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.API/ProEventos.API.csproj",
-      "packagesPath": "/home/anderdam/.nuget/packages/",
-      "outputPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.API/obj/",
+      "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+      "packagesPath": "C:\\Users\\adapp\\.nuget\\packages\\",
+      "outputPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/home/anderdam/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\adapp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Application/ProEventos.Application.csproj": {
-              "projectPath": "/home/anderdam/dev/ProEventos/Back/src/ProEventos.Application/ProEventos.Application.csproj"
+            "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj": {
+              "projectPath": "D:\\Dev\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj"
             }
           }
         }
@@ -1571,6 +1581,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.5, 5.0.5]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1579,7 +1595,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.4.21255.9\\RuntimeIdentifierGraph.json"
       }
     }
   }
