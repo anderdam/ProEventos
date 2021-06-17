@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'
+import { ReactiveFormsModule } from '@angular/forms';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 //NGX-BOOTSTRAP
 import { CollapseModule } from 'ngx-bootstrap/collapse';
@@ -54,6 +55,7 @@ import { RegistrationComponent } from './componentes/user/registration/registrat
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
+    ReactiveFormsModule,
     TooltipModule.forRoot(),
     BsDropdownModule.forRoot(),
     CollapseModule.forRoot(),
