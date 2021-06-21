@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ProEventos.Domain
 {
-    public class Evento
+        public class Evento
     {
         public int Id { get; set; }
         public string LocalName { get; set; }
